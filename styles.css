@@ -1,3 +1,4 @@
+/* Base reset */
 * {
     margin: 0;
     padding: 0;
@@ -5,19 +6,19 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
     color: #333;
+    line-height: 1.6;
     padding: 20px;
 }
 
-/* Header Styling */
+/* Header */
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #007acc;
+    background-color: #005f99;
     color: white;
+    padding: 30px 20px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -27,63 +28,63 @@ header img {
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    border: 3px solid white;
 }
 
 header h1 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
 header hr {
+    width: 50px;
+    border: 1px solid #fff;
     margin: 10px auto;
-    width: 50%;
-    border: 1px solid white;
 }
 
-header p {
-    font-size: 0.9em;
-}
-
-header a {
-    color: white;
+header p a {
+    color: #fff;
     text-decoration: none;
     margin: 0 10px;
+    font-weight: bold;
 }
 
-/* Section Styling */
+/* Sections */
 section {
     background-color: white;
-    padding: 20px;
     border-radius: 10px;
+    padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 section h2 {
-    color: #007acc;
+    color: #005f99;
     margin-bottom: 10px;
 }
 
-section h3, section h4 {
+section h3 {
     margin-top: 15px;
     margin-bottom: 8px;
+    font-size: 1.2em;
     color: #333;
 }
 
-section p {
-    margin-bottom: 10px;
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
 }
 
 li {
-    margin-left: 20px;
-    list-style-type: disc;
+    margin-bottom: 5px;
 }
 
-/* Footer Styling */
+/* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    font-size: 0.85em;
-    color: #666;
+    font-size: 0.9em;
+    color: #555;
 }
